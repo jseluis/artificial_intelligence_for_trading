@@ -1,4 +1,5 @@
 # Aritificial Intelligence for Trading Nanodegree 
+[My Certificate](https://confirm.udacity.com/KZ9E4ZVH)
 
 # Projects & Solutions
 
@@ -11,7 +12,6 @@
 
 Solutions for the Projects - AI for Trading Nanodegree.
 
-[My Certificate](https://confirm.udacity.com/KZ9E4ZVH)
 
 ## Projects
 
