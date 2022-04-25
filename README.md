@@ -10,7 +10,7 @@
 
 ## Brief Description
 
-Solutions for the Projects - AI for Trading Nanodegree.
+My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 This is an extremely interesting Nanodegree if you want to apply Artificial Intelligence to track
 patterns in the Financial Markets. It will give you a good grasp on how the Financial Sector can
@@ -28,7 +28,17 @@ benefit from the use of Deep Learning and Natural Language Processing to read re
 
 * Momentum Trading: Alpha signals, and how they can be applied to a long/short trading strategy. Learn about momentum, a common alpha signal used in trading strategies.
 
+* Quant Workflow: Overall quant workflow, including alpha signal generation, alpha combination, portfolio optimization, and trading.
 
+* Outliers and Filtering: Importance of outliers and how to detect them. Learn about methods designed to handle outliers.
+
+* Regression: Regression, and related statistical tools that pre-process data before regression analysis. See how regression relates to trading and other more advanced methods.
+
+* Time Series Modeling: Advanced methods for time series analysis, including ARMA, ARIMA, Kalman Filters, Particle Filters, and recurrent neural networks.
+
+* Volatility: Stock volatility, and how the GARCH model analysis volatility. See how volatility is used in equity trading.
+
+* Pairs Trading and Mean Reversion: Pairs trading, and study the tools used in identifying stock pairs and making trading decisions.
 
 ## Projects
 
@@ -36,6 +46,8 @@ benefit from the use of Deep Learning and Natural Language Processing to read re
         Implement a trading strategy on your own and test to see if it has the potential to be profitable.
 
 * [Breakout Strategy](https://github.com/jseluis/Artificial_Intelligence_for_Trading/tree/main/Breakout_Strategy)
+
+        Implement the breakout strategy, find and remove outliers, and test to see if it can be a profitable strategy.
 
 * Smart Beta and Portfolio Optimization
 
