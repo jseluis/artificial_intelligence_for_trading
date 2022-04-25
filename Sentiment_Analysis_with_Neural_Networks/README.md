@@ -79,21 +79,19 @@ Additional resources: If you would like to know some additional practical tips a
         probabilities. The starter code has a comment that makes it clear how to compute preds: > # 
         Take the exponent of the NN output to get a range of 0 to 1 for each label.
 
-Answer what the prediction of the model is and the uncertainty of the prediction.
+What prediction of the model is and the uncertainty of the prediction?
 
-You correctly answered and explained, which class the model predicted and what the confidence and uncertainty of the prediction is. Your model is correctly giving a positive sentiment for this tweet.
+i.e. explain which class the model predicted and what the confidence and uncertainty of the prediction is. Your model is correctly giving a positive sentiment for this tweet.
 
-You have completed the demanding project, awesome work :udacious:
+*Remember* :udacious
+*The model prodicts a scalar of 5 values, where each value indicates the prediction for one of the classes
 
-Congratulations!
+        [very negative, negative, neutral, positive, very positive]
 
-Remember:
-The model prodicts a scalar of 5 values, where each value indicates the prediction for one of the classes
+* Each value is a value between 0.0 and 1.0, where 1 would indicate 100% certainty for the likelihood of this class and 0 a 0% likelihood. All values should sum up to 1.0.
 
-[very negative, negative, neutral, positive, very positive]
+* We can see that the model predicts the 4th value with 0.6950 - the highest likelihood. The model predicts a positive review and therefore seems to work correctly.
 
-Each value is a value between 0.0 and 1.0, where 1 would indicate 100% certainty for the likelihood of this class and 0 a 0% likelihood. All values should sum up to 1.0.
-We can see that the model predicts the 4th value with 0.6950 - the highest likelihood. The model predicts a positive review and therefore seems to work correctly.
-The positive prediction is predicted with 69.50% certainty - the uncertainty however is just 1-0.6950 = 30.5%.
+* The positive prediction is predicted with 69.50% certainty - the uncertainty however is just 1-0.6950 = 30.5%.
 
-However taking into account both correct bullish predictions, positive and very positive, the certainty is overwhelming confident! We have 0.6950 + 0.2824 = 0.9774... 97,8% certainty, awesome! :smile:
+* However taking into account both correct bullish predictions, positive and very positive, the certainty is overwhelming confident! We have 0.6950 + 0.2824 = 0.9774... 97,8% certainty, awesome! :smile:
