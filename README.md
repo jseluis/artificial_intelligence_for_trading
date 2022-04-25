@@ -49,7 +49,7 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * Model Testing and Evaluation: Metrics to evaluate models and about how to avoid over- and underfitting.
 
-* <b>Random Forests:</b> Random forest models and how to use them to combine alpha factors. 
+* <p>Random Forests:</p> Random forest models and how to use them to combine alpha factors. 
 
 * Feature Engineering: Engineer features such as market dispersion, market volatility, sector and date parts. Also learn to engineer targets (labels) that are robust to market changes over time.
 
