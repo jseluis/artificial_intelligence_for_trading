@@ -29,8 +29,8 @@
 
 ### You can implement get_top_n efficiently using iterrows in the foll manner:
 
-    # Create a dataframe with the same columns and indeices as prev_returns, but filled with 0s
-    largest = pd.DataFrame(0, index=prev_returns.index, columns=prev_returns.columns)
+ $  # Create a dataframe with the same columns and indeices as prev_returns, but filled with 0s
+ $  largest = pd.DataFrame(0, index=prev_returns.index, columns=prev_returns.columns)
 
     # Iterate through the rows of prev_returns
     for index, _ in prev_returns.iterrows():
