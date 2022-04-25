@@ -12,11 +12,13 @@
 
 * The function get_high_lows_lookback computes the maximum and minimum of the closing prices over a window of days.
 
-A breakout strategy seeks to benefit from the idea that stock prices typically oscillate within a range, so that when they begin to break out of the range, they are likely to continue breaking out. This function computes the range of the stock prices. If the stocks break out of the range then we can trade the stocks.
+* A breakout strategy seeks to benefit from the idea that stock prices typically oscillate within a range, so that when they begin to break out of the range, they are likely to continue breaking out. This function computes the range of the stock prices. If the stocks break out of the range then we can trade the stocks.
 
+```python
 close = df.reset_index().pivot(index='date', columns='ticker', values='adj_close')
 high = df.reset_index().pivot(index='date', columns='ticker', values='adj_high')
 low = df.reset_index().pivot(index='date', columns='ticker', values='adj_low')
+```
 
 Check out OHLC lesson https://www.youtube.com/watch?v=FgNY4YgVWFk
 
