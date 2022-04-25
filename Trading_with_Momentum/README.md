@@ -29,8 +29,9 @@
 
 ### You can implement get_top_n efficiently using iterrows in the foll manner:
 
- $  # Create a dataframe with the same columns and indeices as prev_returns, but filled with 0s
- $  largest = pd.DataFrame(0, index=prev_returns.index, columns=prev_returns.columns)
+   # Create a dataframe with the same columns and indeices as prev_returns, but filled with 0s
+    ```python
+   largest = pd.DataFrame(0, index=prev_returns.index, columns=prev_returns.columns)
 
     # Iterate through the rows of prev_returns
     for index, _ in prev_returns.iterrows():
@@ -39,10 +40,11 @@
         # Replace 0 values with 1 when a column contains one of the n largest values 
         largest.loc[index, top_stocks] = 1
     return largest
-
+```
 - You can implement get_top_n most efficiently in the foll manner:
 
-- return prev_returns.apply(lambda x: x >= pd.Series.nlargest(x, top_n).min(), axis=1).astype('int64')
+    ```python 
+    return prev_returns.apply(lambda x: x >= pd.Series.nlargest(x, top_n).min(), axis=1).astype('int64') ```
 
 - You can implement get_top_n in the foll manner:
 
