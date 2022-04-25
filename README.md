@@ -3,7 +3,7 @@ Udacity Inc. and WorldQuant LLC
 
 [My Certificate](https://confirm.udacity.com/KZ9E4ZVH)
  
- Solutions for the Projects - AI for Trading Nanodegree at Udacity
+ My Solutions for the Projects - AI for Trading Nanodegree
 
 ## Content
 * [Brief Description](#brief-description)
