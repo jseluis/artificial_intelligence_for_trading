@@ -8,7 +8,7 @@
 
 ###### *Important Notes*: 
 
-##  Generate Signal (*Important*)
+###  Generate Signal (*Important*)
 
 * The function get_high_lows_lookback computes the maximum and minimum of the closing prices over a window of days.
 
@@ -22,24 +22,21 @@ low = df.reset_index().pivot(index='date', columns='ticker', values='adj_low')
 
 [Check out OHLC lesson](https://www.youtube.com/watch?v=FgNY4YgVWFk)
 
-Closing price is the end of day stock price.
-Open price is the start of the day stocks price.
-High price is the highest price of the stock over the entire day.
-Low price is the lowest price of the stock over the entire day.
+*Important*
+- Closing price is the end of day stock price.
+- Open price is the start of the day stocks price.
+- High price is the highest price of the stock over the entire day.
+- Low price is the lowest price of the stock over the entire day.
 
-The function get_long_short computes long and short signals using a breakout strategy.
+* The function get_long_short computes long and short signals using a breakout strategy. In this function, breakout strategy is actually implemented. When the stock price is out of the window, we can buy/sell the stocks accordingly.
 
-In this function, breakout strategy is actually implemented. When the stock price is out of the window, we can buy/sell the stocks accordingly.
+* The function filter_signals filters out repeated long or short signals. Having additional signals to sell/buy the stocks are not helpful therefore we filter out these repeated long or short signals.
 
-The function filter_signals filters out repeated long or short signals.
+* The function get_lookahead_prices gets the close price days ahead in time.
 
-Having additional signals to sell/buy the stocks are not helpful therefore we filter out these repeated long or short signals.
+* The function get_return_lookahead generates the log price return between the closing price and the lookahead price.
 
-The function get_lookahead_prices gets the close price days ahead in time.
-
-The function get_return_lookahead generates the log price return between the closing price and the lookahead price.
-
-Raw return is defined as R = (p(t+1) - p(t)) / p(t), we can change to log return as follows;
+* Raw return is defined as R = (p(t+1) - p(t)) / p(t), we can change to log return as follows;
 
 R = p(t+1) / p(t) - p(t) / p(t)
 R = p(t+1) / p(t) - 1
@@ -50,31 +47,31 @@ lnR = ln(p(t+1) / p(t)) - ln(1)
 lnR = ln(p(t+1) / p(t)) where ln(1) = 0
 lnR = ln(p(t+1)) - ln(p(t)) using logarthmic rule
 
-The function get_signal_return generates the signal returns.
-Evaluate Signal
+* The function get_signal_return generates the signal returns.
 
-Correctly answers the question “What do the histograms tell you about the signal returns?"
+###  Evaluate Signal
 
-To answer this question think about the following:
+* What do the histograms tell you about the signal returns?
+*To keep in mind*
 
     Are the histograms skewed, if yes which side?
     Is it because of outliers, what could be the reason?
     Which side do the outliers appear and what does it signify?
     What will happen to the distribution of the histograms if the outliers are removed?
 
-Another way to visually check if a distribution is normal is or not, is to create a QQ (quantile-quantile) plot. See this link for how to use QQ plots.
+* Another way to visually check if a distribution is normal is or not, is to create a QQ (quantile-quantile) plot. See this link for how to use QQ plots.
 
-That's correct! There's a skew in the distribution. It is actually because of the outliers. The signal returns distribution can be used to identify any outliers in the distribution. Here's the lesson video that talks about identifying the outliers in the histogram of the signal returns https://www.youtube.com/watch?v=BSLGZz0RzTg
-Outliers
+* There's a skew in the distribution. It is actually because of the outliers. The signal returns distribution can be used to identify any outliers in the distribution. Here's the lesson video that talks about identifying the outliers in the histogram of the signal returns https://www.youtube.com/watch?v=BSLGZz0RzTg
 
-The function calculate_kstest calculates the ks and p values.
+### Outliers
 
-Nice job in first getting the normal_args (mean and standard deviation) of the entire portfolio and then running the KS test on a normal distribution against each stock's signal returns with normal_args of the entire portfolio.
+* The function calculate_kstest calculates the ks and p values.
 
-The function find_outliers returns the list of outlying symbols.
+* The normal_args (mean and standard deviation) of the entire portfolio and then running the KS test on a normal distribution against each stock's signal returns with normal_args of the entire portfolio.
 
-Both the conditions to find the outliers are satisfied;
+* The function find_outliers returns the list of outlying symbols.
 
-Symbols that pass the null hypothesis with a p-value less than pvalue_threshold.
-Symbols that with a KS value above ks_threshold.
+* Both the conditions to find the outliers are satisfied;
+
+* Symbols that pass the null hypothesis with a p-value less than pvalue_threshold. Symbols that with a KS value above ks_threshold.
 
