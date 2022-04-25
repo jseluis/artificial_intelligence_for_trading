@@ -121,17 +121,17 @@ Udacity Inc. and WorldQuant LLC
         Implement the breakout strategy, find and remove outliers, and test to see if it can be a 
         profitable strategy.
 
-* Smart Beta and Portfolio Optimization
+* [Smart Beta and Portfolio Optimization](#)
 
         Build a smart beta portfolio against an index and optimize a portfolio using quadratic 
         programming.
 
-* Alpha Research and Factor Modeling
+* [Alpha Research and Factor Modeling](#)
 
         Research and implement alpha factors, build a risk factor model. Use alpha factors and risk 
         factors to optimize a portfolio.
 
-* Natural Language Processing on Financial Statements (Deep Learning)
+* [Natural Language Processing on Financial Statements](#)
 
         NLP Analysis on 10-k financial statements to generate an alpha factor.
 
@@ -139,7 +139,7 @@ Udacity Inc. and WorldQuant LLC
 
         Build a deep learning model to classify the sentiment of messages.
 
-* Combining Signals for Enhanced Alpha (Random Forest for Alpha)
+* [Combining Signals for Enhanced Alpha (Random Forest for Alpha)](#)
 
         Build a random forest to generate better alpha.
 
