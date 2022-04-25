@@ -77,7 +77,8 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * Sentiment Prediction RNN: Implement a sentiment prediction RNN for predicting whether a movie review is positive or negative!
 
- Post Sentiment analysis
+## Sentiment Analysis with Deep Neural Networks
+
 * Machine Learning & Decision Trees: Decision trees are a structure for decision-making where each decision leads to a set of consequences or additional decisions.
 
 * Model Testing and Evaluation: Metrics to evaluate models and about how to avoid over- and underfitting.
