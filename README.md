@@ -59,6 +59,16 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * Advanced Portfolio Optimization: Portfolio optimization using alpha factors and risk factor models.
 
+* Natural Language Processing: How to build a Natural Language Processing pipeline.
+
+* Text Processing: Prepare text obtained from different sources for further processing, by cleaning, normalizing and splitting it into individual words or tokens.
+
+* Feature Extraction: Transform text using methods like Bag-of-Words, TF-IDF, Word2Vec and GloVE to extract features that you can use in machine learning models.
+
+* Financial Statements: How to scrape data from financial documents using Regular Expressions and BeautifulSoup
+
+* NLP Analysis: How to apply to NLP to financial statements
+
  Post Sentiment analysis
 * Machine Learning & Decision Trees: Decision trees are a structure for decision-making where each decision leads to a set of consequences or additional decisions.
 
