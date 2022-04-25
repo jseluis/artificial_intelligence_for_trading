@@ -83,9 +83,14 @@ Use performance attribution to determine how each factor contributed to the port
         Build a smart beta portfolio against an index and optimize a portfolio using quadratic 
         programming.
 
-* Multi-factor Model
+* Alpha Research and Factor Modeling
+
+        Research and implement alpha factors, build a risk factor model. Use alpha factors and risk 
+        factors to optimize a portfolio.
 
 * Natural Language Processing on Financial Statements (Deep Learning)
+
+        NLP Analysis on 10-k financial statements to generate an alpha factor.
 
 * [Sentiment Analysis with Neural Networks (Pytorch, NLTK & Stocktwits)](https://github.com/jseluis/Artificial_Intelligence_for_Trading/tree/main/Sentiment_Analysis_with_Neural_Networks)
 
