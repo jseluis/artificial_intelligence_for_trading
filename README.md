@@ -3,7 +3,7 @@
 
 ## Table of contents
 * [Brief Description](#brief-description)
-* [Projects](#projects)
+* [Projects & Solutions](#projects)
 
 ## Brief Description
 
@@ -42,6 +42,8 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 * Portfolio Risk and Return: Fundamentals of portfolio theory, which are key to designing portfolios for mutual funds, hedge funds and ETFs.
 
 * Portfolio Optimization: Optimize portfolios to meet certain criteria and constraints. Get hands on experience in optimizing a portfolio with the cvxpy Python library.
+
+* Machine Learning & Decision Trees: Decision trees are a structure for decision-making where each decision leads to a set of consequences or additional decisions.
 
 ## Projects
 
