@@ -30,18 +30,7 @@
 ### You can implement get_top_n efficiently using iterrows in the foll manner:
 
    # Create a dataframe with the same columns and indeices as prev_returns, but filled with 0s
-   
-   ```python
-   largest = pd.DataFrame(0, index=prev_returns.index, columns=prev_returns.columns)
 
-    # Iterate through the rows of prev_returns
-    for index, _ in prev_returns.iterrows():
-        # Create a list of the columns that contain the n largest values
-        top_stocks = list(prev_returns.loc[index].nlargest(top_n).index.get_values())
-        # Replace 0 values with 1 when a column contains one of the n largest values 
-        largest.loc[index, top_stocks] = 1
-    return largest 
-    ```
 
 - You can implement get_top_n most efficiently in the foll manner:
 
@@ -66,3 +55,16 @@ Here is some more information on t-statistic and p-value. Also this link shows u
 - The p-value are calculated correctly.
 
 - The analysis and reasoning given for what the pvalue indicates about the signal is apt. Its great to see that you have compared your p-value to alpha :+1: This link provides some more information on hypothesis testing.
+
+   
+   ```python
+   largest = pd.DataFrame(0, index=prev_returns.index, columns=prev_returns.columns)
+
+    # Iterate through the rows of prev_returns
+    for index, _ in prev_returns.iterrows():
+        # Create a list of the columns that contain the n largest values
+        top_stocks = list(prev_returns.loc[index].nlargest(top_n).index.get_values())
+        # Replace 0 values with 1 when a column contains one of the n largest values 
+        largest.loc[index, top_stocks] = 1
+    return largest 
+    ```
