@@ -1,4 +1,3 @@
-
 #  Natural Language Processing on Financial Statements
 
 ## Project Description: 
