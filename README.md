@@ -26,6 +26,8 @@ benefit from the use of Deep Learning and Natural Language Processing to read re
 
 * Stock Returns: How to calculate stock returns, and log returns in particular. Learn why log returns are used to analyze financial data.
 
+* Momentum Trading: Alpha signals, and how they can be applied to a long/short trading strategy. Learn about momentum, a common alpha signal used in trading strategies.
+
 ## Projects
 
 * [Trading with Momentum](https://github.com/jseluis/AI_for_Trading/tree/main/Trading_with_Momentum)
