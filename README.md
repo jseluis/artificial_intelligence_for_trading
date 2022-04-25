@@ -49,13 +49,22 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * Model Testing and Evaluation: Metrics to evaluate models and about how to avoid over- and underfitting.
 
-* <p>Random Forests:</p> Random forest models and how to use them to combine alpha factors. 
+* Random Forests: Random forest models and how to use them to combine alpha factors. 
 
 * Feature Engineering: Engineer features such as market dispersion, market volatility, sector and date parts. Also learn to engineer targets (labels) that are robust to market changes over time.
 
 * Overlapping Labels: Non-independent labels that comes up during alpha combination with machine learning models.
 
 *Feature Importance: Decide relevant each feature is to a machine learning model's predictions. Two methods for calculating feature importance.
+
+* Intro to Backtesting
+
+Backtesting helps you determine whether or not your strategies can be generalizable to future unseen data.
+Optimization with Transaction Costs
+
+Learn about how to make the portfolio optimization in a backtest more realistic, and also more computationally efficient.
+Attribution
+Use performance attribution to determine how each factor contributed to the portfolio's results.
 
 ## Projects
 
@@ -82,6 +91,10 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
         Build a deep learning model to classify the sentiment of messages.
 
-* Combining Signals for Enhanced Alpha
+* Combining Signals for Enhanced Alpha (Random Forest for Alpha)
+
+        Build a random forest to generate better alpha.
 
 * Backtesting
+
+        Build a backtester using Barra data.
