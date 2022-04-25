@@ -22,9 +22,11 @@
   ![myImage](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/3354060/1635731882/FireShot_Capture_124_-_project_4_starter.ipynb_-_Colaboratory_-_colab.research.google.com.png)
 
 * The function factor_betas gets the factor betas from the PCA model.
+
   ![myImage](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/3354060/1635731991/FireShot_Capture_125_-_project_4_starter.ipynb_-_Colaboratory_-_colab.research.google.com.png)
 
 * The function factor_returns gets the factor returns from the PCA model.
+
   ![myImage](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/3354060/1635732039/FireShot_Capture_126_-_project_4_starter.ipynb_-_Colaboratory_-_colab.research.google.com.png)
 
 * The function factor_cov_matrix gets the factor covariance matrix.
