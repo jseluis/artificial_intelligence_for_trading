@@ -3,7 +3,7 @@ Udacity Inc. and WorldQuant LLC
 
 [My Certificate](https://confirm.udacity.com/KZ9E4ZVH)
  
- My Solutions for the Projects - Artificial Intelligence for Trading Nanodegree
+ My Solutions & Projects - Artificial Intelligence for Trading
 
  "Never underestimates the power of AI ..."
 
