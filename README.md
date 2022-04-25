@@ -69,6 +69,8 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * [Sentiment Analysis with Neural Networks (Pytorch, NLTK & Stocktwits)](https://github.com/jseluis/Artificial_Intelligence_for_Trading/tree/main/Sentiment_Analysis_with_Neural_Networks)
 
+        Build a deep learning model to classify the sentiment of messages.
+
 * Combining Signals for Enhanced Alpha
 
 * Backtesting
