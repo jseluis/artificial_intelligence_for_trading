@@ -3,7 +3,7 @@
 
 ## Project Description: 
 
-##### Implement the breakout strategy, find and remove any outliers, test to see if it has the potential to be profitable using a Histogram and P-Value using a dataset with the end of day from Quotemedia.
+* Implement the breakout strategy, find and remove any outliers, test to see if it has the potential to be profitable using a Histogram and P-Value using a dataset with the end of day from Quotemedia.
 
 
 ###### *Important Notes*: 
