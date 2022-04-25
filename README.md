@@ -41,8 +41,7 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 ## Projects
 
 * [Trading with Momentum](https://github.com/jseluis/AI_for_Trading/tree/main/Trading_with_Momentum)
-        Implement a trading strategy on your own and test to see if it has the potential to be 
-        profitable.
+        Implement a trading strategy on your own and test to see if it has the potential to be profitable.
 
 * [Breakout Strategy](https://github.com/jseluis/Artificial_Intelligence_for_Trading/tree/main/Breakout_Strategy)
 
