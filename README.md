@@ -38,6 +38,14 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * Pairs Trading and Mean Reversion: Pairs trading, and study the tools used in identifying stock pairs and making trading decisions.
 
+* Stocks, Indices, Funds: Gain an overview of stocks, indices and funds. Also learn how to construct an index.
+
+* ETFs: Learn about Exchanged Traded Funds (ETFs) and how they are used by investors and fund managers.
+
+* Portfolio Risk and Return: Fundamentals of portfolio theory, which are key to designing portfolios for mutual funds, hedge funds and ETFs.
+
+* Portfolio Optimization: Optimize portfolios to meet certain criteria and constraints. Get hands on experience in optimizing a portfolio with the cvxpy Python library.
+
 ## Projects
 
 * [Trading with Momentum](https://github.com/jseluis/AI_for_Trading/tree/main/Trading_with_Momentum)
