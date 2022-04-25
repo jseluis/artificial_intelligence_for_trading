@@ -1,5 +1,6 @@
-# AI_for_Trading
- Artificial Intelligence for Trading Projects
+# Aritificial Intelligence for Trading Nanodegree 
+
+# Projects & Solutions
 
 ## Table of contents
 * [Brief Description](#brief-description)
