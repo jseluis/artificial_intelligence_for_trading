@@ -75,7 +75,9 @@ Additional resources: If you would like to know some additional practical tips a
 
         tensor([[ 0.0008,  0.0129,  0.0089,  0.6950,  0.2824]])
 
-        Hint: The output should be the raw prediction vector from the network representing class probabilities. The starter code has a comment that makes it clear how to compute preds: > # Take the exponent of the NN output to get a range of 0 to 1 for each label.
+        Hint: The output should be the raw prediction vector from the network representing class 
+        probabilities. The starter code has a comment that makes it clear how to compute preds: > # 
+        Take the exponent of the NN output to get a range of 0 to 1 for each label.
 
 Answer what the prediction of the model is and the uncertainty of the prediction.
 
