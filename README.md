@@ -1,4 +1,6 @@
-## Aritificial Intelligence for Trading Nanodegree 
+## Aritificial Intelligence for Trading
+Udacity Inc. and WorldQuant LLC
+
 [My Certificate](https://confirm.udacity.com/KZ9E4ZVH)
 
 ## Table of contents
