@@ -31,7 +31,7 @@
 
    # Create a dataframe with the same columns and indeices as prev_returns, but filled with 0s
    
-   ```python
+    ```python
    largest = pd.DataFrame(0, index=prev_returns.index, columns=prev_returns.columns)
 
     # Iterate through the rows of prev_returns
@@ -40,7 +40,7 @@
         top_stocks = list(prev_returns.loc[index].nlargest(top_n).index.get_values())
         # Replace 0 values with 1 when a column contains one of the n largest values 
         largest.loc[index, top_stocks] = 1
-    return largest
+    return largest 
     ```
 
 - You can implement get_top_n most efficiently in the foll manner:
