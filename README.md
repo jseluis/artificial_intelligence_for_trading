@@ -5,8 +5,7 @@
 
 ## Table of contents
 * [Brief Description](#brief-description)
-* [Trading with Momentum](#trading-momentum)
-* [Setup](#setup)
+* [Projects](#projects)
 
 ## Brief Description
 
