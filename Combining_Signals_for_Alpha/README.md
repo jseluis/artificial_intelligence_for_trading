@@ -29,3 +29,14 @@ Combining Signals for Enhanced Alpha
 * Implement the non_overlapping_samples function, and the non_overlapping_samples function.
 
 * Implement the bagging_classifier function, calculate_oob_score function, and the non_overlapping_estimators function.
+
+Links:
+
+Overfitting and Underfitting:
+https://forums.fast.ai/t/can-a-model-overfit-and-underfit-at-the-same-time/50603/4
+
+Overlapping Samples:
+https://stats.stackexchange.com/questions/264129/what-is-the-difference-between-bagging-and-random-forest-if-only-one-explanatory
+
+List comprehension:
+https://www.w3schools.com/python/python_lists_comprehension.asp
