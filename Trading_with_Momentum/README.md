@@ -1,9 +1,10 @@
 
-Meets Specifications
+# Meets Specifications
 
-Very well done, great job on meeting all the specifications of the project. Here is an additional tutorial you might want to check :smiley:
-Happy learning and feel free to reach out to our mentor team if you have any doubts on the course :smiley:
-Market Data
+### Very well done, great job on meeting all the specifications of the project. Here is an additional tutorial you might want to check :smiley:
+### Happy learning and feel free to reach out to our mentor team if you have any doubts on the course :smiley:
+
+# Market Data
 
 The function resample_prices computes the monthly prices.
 
