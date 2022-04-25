@@ -2,7 +2,7 @@
  Artificial Intelligence for Trading Projects
 
 ## Table of contents
-* [General info](#Brief Description)
+* [Brief Description](#brief-description)
 * [Trading with Momentum](#trading-momentum)
 * [Setup](#setup)
 
@@ -10,7 +10,7 @@
 
 Solutions for the Project AI for Trading Nanodegree.
 
-[Certificate](https://confirm.udacity.com/KZ9E4ZVH)
+[My Certificate](https://confirm.udacity.com/KZ9E4ZVH)
 * Lorem version: 12.3
 
 ##
