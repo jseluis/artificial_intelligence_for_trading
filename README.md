@@ -12,7 +12,7 @@
 
 My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
-#### This is an extremely interesting Nanodegree if you want to apply Artificial Intelligence to track patterns in the Financial Markets. Personally, it was really good to grasp how the Financial Sector can benefit from the use of Deep Learning and Natural Language Processing to read reports and statements, and many other applications. The topics and projects include:
+#### This is an extremely interesting Nanodegree if you want to apply Artificial Intelligence to track patterns in the Financial Markets. The topics and projects include:
 
 * Basic of quantitative analysis, including data processing, trading signal generation, and portfolio management. Use Python to work with historical stock data, develop trading strategies, and construct a multi-factor model with optimization.
 
