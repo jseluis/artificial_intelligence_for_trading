@@ -23,9 +23,9 @@ Solutions for the Projects - AI for Trading Nanodegree.
 
 * Multi-factor Model
 
-* NLP on Financial Statements
+* Natural Language Processing on Financial Statements (Deep Learning)
 
-* Sentiment Analysis with Neural Networks
+* Sentiment Analysis with Neural Networks (Deep Learning)
 
 * Combining Signals for Enhanced Alpha
 
