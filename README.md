@@ -2,14 +2,13 @@
 Udacity Inc. and WorldQuant LLC
 
 [My Certificate](https://confirm.udacity.com/KZ9E4ZVH)
+ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 ## Content
 * [Brief Description](#brief-description)
 * [Projects & Solutions](#projects)
 
 ## Brief Description
-
-My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 #### This is an extremely interesting Nanodegree if you want to apply Artificial Intelligence to track patterns in the Financial Markets. The topics and projects include:
 
