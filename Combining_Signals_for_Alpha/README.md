@@ -1,4 +1,3 @@
-
 Combining Signals for Enhanced Alpha
 
 ## Project Description: 
