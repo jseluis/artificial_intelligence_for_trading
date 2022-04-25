@@ -143,6 +143,6 @@ Udacity Inc. and WorldQuant LLC
 
         Build a random forest to generate better alpha.
 
-* Backtesting
+* [Backtesting](https://github.com/jseluis/Artificial_Intelligence_for_Trading/tree/main/Backtesting)
 
         Build a backtester using Barra data.
