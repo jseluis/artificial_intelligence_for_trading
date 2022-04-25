@@ -8,7 +8,7 @@
 
 ## Brief Description
 
-Solutions for the Project AI for Trading Nanodegree.
+Solutions for the Projects - AI for Trading Nanodegree.
 
 [My Certificate](https://confirm.udacity.com/KZ9E4ZVH)
 
