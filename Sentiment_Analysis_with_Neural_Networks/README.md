@@ -6,6 +6,11 @@
 ##### Here you will build your own deep learning model to classify the sentiment of messages from [StockTwits](https://stocktwits.com/), a social network for investors and traders. Your model will be able to predict if any particular message is positive or negative. From this, you'll be able to generate a signal of the public sentiment for various ticker symbols.
 
 
+###### *Additional Resources*
+
+Additional resources: If you would like to know some additional practical tips about how to improve your network and training, you may read this https://danijar.com/tips-for-training-recurrent-neural-networks/ and this https://towardsdatascience.com/stock-prediction-using-recurrent-neural-networks-c03637437578
+
+
 ###### *Important Notes*: 
 
 ## From the Market Data (*Important*)
