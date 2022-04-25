@@ -126,7 +126,7 @@ Udacity Inc. and WorldQuant LLC
         Build a smart beta portfolio against an index and optimize a portfolio using quadratic 
         programming.
 
-* [Alpha Research and Factor Modeling](#)
+* [Alpha Research and Factor Modeling](https://github.com/jseluis/Artificial_Intelligence_for_Trading/tree/main/Alpha_Research_and_Factor_Modeling)
 
         Research and implement alpha factors, build a risk factor model. Use alpha factors and risk 
         factors to optimize a portfolio.
