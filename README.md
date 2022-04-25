@@ -11,6 +11,8 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 #### This is an extremely interesting Nanodegree if you want to apply Artificial Intelligence to track patterns in the Financial Markets. The topics and projects include:
 
+## Advanced Portifolio Optimization
+
 * Basic of quantitative analysis, including data processing, trading signal generation, and portfolio management. Use Python to work with historical stock data, develop trading strategies, and construct a multi-factor model with optimization.
 
 * Stocks and common terminology used for analysis.
@@ -59,6 +61,8 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * Advanced Portfolio Optimization: Portfolio optimization using alpha factors and risk factor models.
 
+## Natural Language Processing using Deep Learning 
+
 * Natural Language Processing: How to build a Natural Language Processing pipeline.
 
 * Text Processing: Prepare text obtained from different sources for further processing, by cleaning, normalizing and splitting it into individual words or tokens.
@@ -77,7 +81,7 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * Sentiment Prediction RNN: Implement a sentiment prediction RNN for predicting whether a movie review is positive or negative!
 
-## Sentiment Analysis with Deep Neural Networks
+## Sentiment Analysis and Alphas with Random Forest, PCA, and Deep Neural Networks
 
 * Machine Learning & Decision Trees: Decision trees are a structure for decision-making where each decision leads to a set of consequences or additional decisions.
 
