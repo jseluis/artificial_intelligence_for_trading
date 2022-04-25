@@ -43,7 +43,19 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * Portfolio Optimization: Optimize portfolios to meet certain criteria and constraints. Get hands on experience in optimizing a portfolio with the cvxpy Python library.
 
+
+ Post Sentiment analysis
 * Machine Learning & Decision Trees: Decision trees are a structure for decision-making where each decision leads to a set of consequences or additional decisions.
+
+* Model Testing and Evaluation: Metrics to evaluate models and about how to avoid over- and underfitting.
+
+* Random Forests: Random forest models and how to use them to combine alpha factors. 
+
+* Feature Engineering: Engineer features such as market dispersion, market volatility, sector and date parts. Also learn to engineer targets (labels) that are robust to market changes over time.
+
+* Overlapping Labels: Non-independent labels that comes up during alpha combination with machine learning models.
+
+*Feature Importance: Decide relevant each feature is to a machine learning model's predictions. Two methods for calculating feature importance.
 
 ## Projects
 
