@@ -47,6 +47,18 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * Factor Models and Types of Factors: Theory of factor models, distinguish between alpha and risk factors, and get an overview of types of factors.
 
+* Risk Factor Models: Model portfolio risk using factors.
+
+* Time Series and Cross Sectional Risk Models: Time series and cross-sectional risk models.
+
+* Risk Factor Models with PCA: Principle Component Analysis and how it's used to build risk factor models.
+
+* Alpha Factors: Alpha generation and evaluation from a practitioner's perspective.
+
+* Alpha Factor Research Methods: Alpha research from a practitioner's perspective.
+
+* Advanced Portfolio Optimization: Portfolio optimization using alpha factors and risk factor models.
+
  Post Sentiment analysis
 * Machine Learning & Decision Trees: Decision trees are a structure for decision-making where each decision leads to a set of consequences or additional decisions.
 
