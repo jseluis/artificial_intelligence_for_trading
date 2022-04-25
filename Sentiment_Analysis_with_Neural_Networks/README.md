@@ -13,61 +13,85 @@ Additional resources: If you would like to know some additional practical tips a
 
 ###### *Important Notes*: 
 
-## From the Market Data (*Important*)
+## Importing Twits (Steps)
 
-- The function resample_prices computes the monthly prices.
+* Print the number of twits in the dataset.
 
-- The resample prices method has been correctly implemented :+1:
+- number of twits in the dataset as 1548010.
 
-- The function compute_log_returns computes the log returns from the prices.
-:white_check_mark:
+## Preprocessing the Data
 
-- The function shift_returns computes the shifted returns.
+* The function preprocess correctly lowercases, removes URLs, removes ticker symbols, removes punctuation, tokenizes, and removes any single character tokens.
 
-- shift_returns is perfectly implemented!
+- In this notebook the function correctly generates the expected pattern by lowercasing, tokenizing and removing punctuation, symbols and single character tokens using regular expressions.
 
-## Portfolio (*Important*)
+* Preprocess all the twits into the tokenized variable.
 
-- The function get_top_n selects the top_n number of the top performing stocks.
+- The next step is done to prepare your data, neat. Again, no issues in your function here to get the required tokens.
 
-- get_top_n will correctly select the top_n number of the top performing stocks.
+* Create a bag of words using the tokenized data.
 
-- You can implement get_top_n efficiently using iterrows in the foll manner:
+- The code creates a bag of words from your prepared tokens using Counter.
 
-- Create a dataframe with the same columns and indeices as prev_returns, but filled with 0s
+* Remove most common and rare words by defining the following variables: freqs, low_cotoff, high_cutoff, K_most_common.
 
-- You can implement get_top_n most efficiently in the foll manner:
+- The code correctly defines the variables freqs, high_cutoff, low_cutoff and K_most_common. Also very good choice of the cutoff values to remove the most frequent and rare words (now ;) ).
 
-- return prev_returns.apply(lambda x: x >= pd.Series.nlargest(x, top_n).min(), axis=1).astype('int64')
+* Defining the variables : 'vacab', 'id2vocab' and 'filtered' correctly.
 
-- You can implement get_top_n in the foll manner:
+- Code defines the variables vacab, id2vocab and filtered was easy for you using dictionaries or arrays.
 
-- return (prev_returns.rank(axis=1, ascending=False)<=top_n).applymap(int)
+## Neural Network
 
-- The function portfolio_returns calculates the projected returns. This formula works since the long and short positions can net out so in aggreagte since all stocks have equal waiting then the weighted average is the arithmetic return
+* The init function correctly initializes the following parameters: self.vocab_size, self.embed_size, self.lstm_size, self.lstm_layers, self.dropout, self.embedding, self.lstm, and self.fc.
 
-- The projected returns are calculated correctly.
+- initialization of all required parameters of the neural network.
 
-## Statistical Tests
+* The 'init_hidden' function generates a hidden state
 
-- The function analyze_alpha calculates the t-value and p-value.
+- The init_hidden function works as expected flawlessly and correctly initializes the hidden states of the hidden layer.
 
-- tvalue and pvalue are correctly calculated. Good job dividing the pvalue by 2 :heavy_check_mark:
-Here is some more information on t-statistic and p-value. Also this link shows us the differences between one-tailed & two-tailed tests and when to use each one.
+* The 'forward' function performs a forward pass of the model the parameter input using the hidden state.
 
-- The p-value are calculated correctly.
+- The forward function correctly performs a forward pass of the model and uses dropout.
 
-- The analysis and reasoning given for what the pvalue indicates about the signal is apt. Its great to see that you have compared your p-value to alpha :+1: This link provides some more information on hypothesis testing.
+## Training
 
-   
-   ```python
-   largest = pd.DataFrame(0, index=prev_returns.index, columns=prev_returns.columns)
+* Correctly split the data into train_features, valid_features, train_labels, and valid_labels.
 
-    # Iterate through the rows of prev_returns
-    for index, _ in prev_returns.iterrows():
-        # Create a list of the columns that contain the n largest values
-        top_stocks = list(prev_returns.loc[index].nlargest(top_n).index.get_values())
-        # Replace 0 values with 1 when a column contains one of the n largest values 
-        largest.loc[index, top_stocks] = 1
-    return largest 
-    ```
+- My split of the data into train_features, valid_features and valid_labels is perfect and your split between training and validation data is well chosen with 0.9.
+
+* Train your model with dropout and clip the gradient. Print out the training progress with the loss and accuracy.
+
+- The Network was trained to achieve a very high accuracy and low loss. Well done printing out the training loss, validation loss, and validation accuracy for every 100 steps. Also, now we see the Loss decrease!
+
+## Making Predictions
+
+* The predict function correctly prints out the prediction vector from the trained model.
+
+- Implemented the prediction function using the trained model. Now we have a production model and workstream.
+
+* Resulting tensor for the prediction vector is:
+
+        tensor([[ 0.0008,  0.0129,  0.0089,  0.6950,  0.2824]])
+
+        Hint: The output should be the raw prediction vector from the network representing class probabilities. The starter code has a comment that makes it clear how to compute preds: > # Take the exponent of the NN output to get a range of 0 to 1 for each label.
+
+Answer what the prediction of the model is and the uncertainty of the prediction.
+
+You correctly answered and explained, which class the model predicted and what the confidence and uncertainty of the prediction is. Your model is correctly giving a positive sentiment for this tweet.
+
+You have completed the demanding project, awesome work :udacious:
+
+Congratulations!
+
+Remember:
+The model prodicts a scalar of 5 values, where each value indicates the prediction for one of the classes
+
+[very negative, negative, neutral, positive, very positive]
+
+Each value is a value between 0.0 and 1.0, where 1 would indicate 100% certainty for the likelihood of this class and 0 a 0% likelihood. All values should sum up to 1.0.
+We can see that the model predicts the 4th value with 0.6950 - the highest likelihood. The model predicts a positive review and therefore seems to work correctly.
+The positive prediction is predicted with 69.50% certainty - the uncertainty however is just 1-0.6950 = 30.5%.
+
+However taking into account both correct bullish predictions, positive and very positive, the certainty is overwhelming confident! We have 0.6950 + 0.2824 = 0.9774... 97,8% certainty, awesome! :smile:
