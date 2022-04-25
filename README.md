@@ -11,7 +11,6 @@
 Solutions for the Project AI for Trading Nanodegree.
 
 [My Certificate](https://confirm.udacity.com/KZ9E4ZVH)
-* Lorem version: 12.3
 
 ## Projects
 
