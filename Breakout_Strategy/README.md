@@ -38,14 +38,14 @@ low = df.reset_index().pivot(index='date', columns='ticker', values='adj_low')
 
 * Raw return is defined as R = (p(t+1) - p(t)) / p(t), we can change to log return as follows;
 
-R = p(t+1) / p(t) - p(t) / p(t)
-R = p(t+1) / p(t) - 1
+        R = p(t+1) / p(t) - p(t) / p(t)
+        R = p(t+1) / p(t) - 1
 
-Taking logs on both sides;
+        Taking logs on both sides;
 
-lnR = ln(p(t+1) / p(t)) - ln(1)
-lnR = ln(p(t+1) / p(t)) where ln(1) = 0
-lnR = ln(p(t+1)) - ln(p(t)) using logarthmic rule
+        lnR = ln(p(t+1) / p(t)) - ln(1)
+        lnR = ln(p(t+1) / p(t)) where ln(1) = 0
+        lnR = ln(p(t+1)) - ln(p(t)) using logarthmic rule
 
 * The function get_signal_return generates the signal returns.
 
