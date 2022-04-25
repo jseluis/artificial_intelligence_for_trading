@@ -6,7 +6,7 @@
 ##### Implement a trading strategy and test to see if it has the potential to be profitable based on the data provided (stocks and time range). There is a description of how to generate a trading signal based on a momentum indicator, therefore you can compute the signal for the time range given and apply it to the dataset to produce projected returns. Finally, perform a statistical test on the mean of the returns to conclude if there is alpha in the signal. For the dataset, we'll be using the end of day from Quotemedia.
 
 
-# Notes from the Project: 
+###### *Important Notes*: 
 
 ## From the Market Data (*Important*)
 
