@@ -139,7 +139,7 @@ Udacity Inc. and WorldQuant LLC
 
         Build a deep learning model to classify the sentiment of messages.
 
-* [Combining Signals for Enhanced Alpha (Random Forest for Alpha)](#)
+* [Combining Signals for Enhanced Alpha (Random Forest for Alpha)](https://github.com/jseluis/Artificial_Intelligence_for_Trading/tree/main/Combining_Signals_for_Alpha)
 
         Build a random forest to generate better alpha.
 
