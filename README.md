@@ -1,8 +1,6 @@
 # Aritificial Intelligence for Trading Nanodegree 
 [My Certificate](https://confirm.udacity.com/KZ9E4ZVH)
 
-# My Projects & Solutions
-
 ## Table of contents
 * [Brief Description](#brief-description)
 * [Projects](#projects)
