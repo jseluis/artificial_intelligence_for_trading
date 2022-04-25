@@ -43,6 +43,9 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * Portfolio Optimization: Optimize portfolios to meet certain criteria and constraints. Get hands on experience in optimizing a portfolio with the cvxpy Python library.
 
+* Factors: Factor investing and alpha research. ps. Project designed by Jonathan Larkin, equities trader and quant investor.
+
+* Factor Models and Types of Factors: Theory of factor models, distinguish between alpha and risk factors, and get an overview of types of factors.
 
  Post Sentiment analysis
 * Machine Learning & Decision Trees: Decision trees are a structure for decision-making where each decision leads to a set of consequences or additional decisions.
