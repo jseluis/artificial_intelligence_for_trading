@@ -20,7 +20,7 @@ high = df.reset_index().pivot(index='date', columns='ticker', values='adj_high')
 low = df.reset_index().pivot(index='date', columns='ticker', values='adj_low')
 ```
 
-Check out OHLC lesson https://www.youtube.com/watch?v=FgNY4YgVWFk
+[Check out OHLC lesson](https://www.youtube.com/watch?v=FgNY4YgVWFk)
 
 Closing price is the end of day stock price.
 Open price is the start of the day stocks price.
