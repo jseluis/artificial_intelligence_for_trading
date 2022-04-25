@@ -17,7 +17,7 @@ Solutions for the Projects - AI for Trading Nanodegree.
 
 * [Trading with Momentum](https://github.com/jseluis/AI_for_Trading/tree/main/Trading_with_Momentum)
 
-* Breakout Strategy
+* [Breakout Strategy](https://github.com/jseluis/Artificial_Intelligence_for_Trading/tree/main/Breakout_Strategy)
 
 * Smart Beta and Portfolio Optimization
 
