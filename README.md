@@ -69,6 +69,14 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * NLP Analysis: How to apply to NLP to financial statements
 
+* Neural Networks: Implement gradient descent and backpropagation in Python, use several techniques to improve their training, use PyTorch for building deep learning models. 
+
+* RNN and LSTM: Recurrent neural networks to learn from sequential data such as text. Build a network that can generate realistic text one letter at a time.
+
+* Embeddings & Word2Vec: Embeddings in neural networks by implementing the Word2Vec model.
+
+* Sentiment Prediction RNN: Implement a sentiment prediction RNN for predicting whether a movie review is positive or negative!
+
  Post Sentiment analysis
 * Machine Learning & Decision Trees: Decision trees are a structure for decision-making where each decision leads to a set of consequences or additional decisions.
 
