@@ -105,6 +105,8 @@ Udacity Inc. and WorldQuant LLC
 
 ## Projects
 
+#### My Solutions
+
 * [Trading with Momentum](https://github.com/jseluis/AI_for_Trading/tree/main/Trading_with_Momentum)
         
         Implement a trading strategy on your own and test to see if it has the potential to be 
