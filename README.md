@@ -121,7 +121,7 @@ Udacity Inc. and WorldQuant LLC
         Implement the breakout strategy, find and remove outliers, and test to see if it can be a 
         profitable strategy.
 
-* [Smart Beta and Portfolio Optimization](#)
+* [Smart Beta and Portfolio Optimization](https://github.com/jseluis/Artificial_Intelligence_for_Trading/tree/main/Smart_Beta_and_Portifolio_Optimization)
 
         Build a smart beta portfolio against an index and optimize a portfolio using quadratic 
         programming.
