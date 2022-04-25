@@ -60,6 +60,9 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * Smart Beta and Portfolio Optimization
 
+        Build a smart beta portfolio against an index and optimize a portfolio using quadratic 
+        programming.
+
 * Multi-factor Model
 
 * Natural Language Processing on Financial Statements (Deep Learning)
