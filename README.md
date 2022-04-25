@@ -13,20 +13,20 @@ Solutions for the Project AI for Trading Nanodegree.
 [My Certificate](https://confirm.udacity.com/KZ9E4ZVH)
 * Lorem version: 12.3
 
-##
+## Projects
 
-1. Trading with Momentum
+* Trading with Momentum
 
-2. Breakout Strategy
+* Breakout Strategy
 
-3. Smart Beta and Portfolio Optimization
+* Smart Beta and Portfolio Optimization
 
-4. Multi-factor Model
+* Multi-factor Model
 
-5. NLP on Financial Statements
+* NLP on Financial Statements
 
-6. Sentiment Analysis with Neural Networks
+* Sentiment Analysis with Neural Networks
 
-7. Combining Signals for Enhanced Alpha
+* Combining Signals for Enhanced Alpha
 
-8. Backtesting
+* Backtesting
