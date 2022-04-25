@@ -1,4 +1,3 @@
-
 # Trading with Momentum
 
 ## Project Description: 
