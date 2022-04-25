@@ -88,16 +88,13 @@ My Solutions for the Projects - AI for Trading Nanodegree at Udacity
 
 * Overlapping Labels: Non-independent labels that comes up during alpha combination with machine learning models.
 
-*Feature Importance: Decide relevant each feature is to a machine learning model's predictions. Two methods for calculating feature importance.
+* Feature Importance: Decide relevant each feature is to a machine learning model's predictions. Two methods for calculating feature importance.
 
-* Intro to Backtesting
+* Backtesting: Backtesting helps you determine whether or not your strategies can be generalizable to future unseen data.
 
-Backtesting helps you determine whether or not your strategies can be generalizable to future unseen data.
-Optimization with Transaction Costs
+* Optimization with Transaction Costs: How to make the portfolio optimization in a backtest more realistic, and also more computationally efficient.
 
-Learn about how to make the portfolio optimization in a backtest more realistic, and also more computationally efficient.
-Attribution
-Use performance attribution to determine how each factor contributed to the portfolio's results.
+* Attribution: Use performance attribution to determine how each factor contributed to the portfolio's results.
 
 ## Projects
 
