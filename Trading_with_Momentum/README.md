@@ -1,5 +1,5 @@
 
-# Trading with Momentum Project
+# Trading with Momentum
 
 ## Project Description: 
 
