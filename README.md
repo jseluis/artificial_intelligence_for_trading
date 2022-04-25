@@ -28,9 +28,12 @@ benefit from the use of Deep Learning and Natural Language Processing to read re
 
 * Momentum Trading: Alpha signals, and how they can be applied to a long/short trading strategy. Learn about momentum, a common alpha signal used in trading strategies.
 
+
+
 ## Projects
 
 * [Trading with Momentum](https://github.com/jseluis/AI_for_Trading/tree/main/Trading_with_Momentum)
+        Implement a trading strategy on your own and test to see if it has the potential to be profitable.
 
 * [Breakout Strategy](https://github.com/jseluis/Artificial_Intelligence_for_Trading/tree/main/Breakout_Strategy)
 
