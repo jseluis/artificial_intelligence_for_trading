@@ -1,4 +1,4 @@
-# Trading with Momentum
+# Sentiment Analysis with Neural Networks
 
 ## Project Description: 
 
