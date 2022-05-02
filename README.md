@@ -131,7 +131,7 @@ Udacity Inc. and WorldQuant LLC
         Research and implement alpha factors, build a risk factor model. Use alpha factors and risk 
         factors to optimize a portfolio.
 
-* [Natural Language Processing on Financial Statements](https://github.com/jseluis/Artificial_Intelligence_for_Trading/tree/main/NLP_on_Financial%20Statements)
+* [Natural Language Processing on Financial Statements](https://github.com/jseluis/Artificial_Intelligence_for_Trading/tree/main/NLP_on_Financial_Statements)
 
         NLP Analysis on 10-k financial statements to generate an alpha factor.
 
