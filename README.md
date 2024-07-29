@@ -1,7 +1,7 @@
 ## Aritificial Intelligence for Trading
 Udacity Inc. and WorldQuant LLC
 
-[My Certificate](https://confirm.udacity.com/KZ9E4ZVH)
+[Certificate](https://confirm.udacity.com/KZ9E4ZVH)
  
  My Solutions & Projects - Artificial Intelligence for Trading
 
