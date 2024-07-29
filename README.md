@@ -5,8 +5,6 @@ Udacity Inc. and WorldQuant LLC
  
  My Solutions & Projects - Artificial Intelligence for Trading
 
- "Never underestimate the power of AI ..."
-
  ![myImage](https://i.pinimg.com/originals/0c/25/18/0c2518c5aadae30a8c492eeebde952a9.gif)
 
 ## Content
